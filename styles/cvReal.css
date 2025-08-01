@@ -1,0 +1,241 @@
+body {
+    font-family: 'Amaranth', sans-serif;
+}
+
+.size20 {
+    font-size: 20px;
+}
+
+.fontColor {
+    color: #555558;
+}
+
+.fontColor h1,
+.fontColor h2,
+.fontColor h3 {
+    color: #000;
+}
+
+.fontColor b {
+    color: #000;
+}
+
+hr {
+    border: 2px solid rgb(8, 196, 234);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+p, li {
+    margin:5px 5px;
+}
+
+
+
+/* -----page expPro----- */
+.gauche{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+/* -----header----- */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: 5px solid rgb(8, 196, 234);
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.header .photoPerso,
+.header .infoPerso {
+    width: 33.3%;
+}
+
+.header .photoPerso img {
+    height: 200px;
+    border-radius: 50%;
+    margin-top:20px;
+}
+
+.header .postSearch {
+    flex: auto;
+}
+
+/* -----fin header----- */
+
+/* -----nav----- */
+.nav {
+    background-color: rgb(8, 196, 234);
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li {
+    list-style: none;
+    width: 33.3%;
+    text-align: center;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #555558;
+    display: block;
+    padding: 30px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    color: #333335;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav li:hover {
+    background-color: rgb(168, 222, 233);
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+/* ----- fin nav----- */
+
+
+
+/* ----- corp----- */
+.corp {
+    padding: 0% 2%;
+}
+
+.domCompetence {
+
+    margin: 20px;
+
+}
+
+.domCompetence table td,
+.domCompetence table th {
+    padding: 10px 20px;
+    border: 2px solid #000;
+}
+
+.domCompetence table {
+    width: 100%
+}
+
+th {
+    background-color: rgb(8, 196, 234);
+    color: #000;
+}
+
+
+
+.corp .sansListe {
+    list-style: none;
+}
+/* -----page expPro----- */
+.col1{
+    width:20%;
+    
+}
+.col2{
+    width:80%;
+    
+}
+/* ----- fin page expPro----- */
+
+/* -----page formContact----- */
+.corp form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.corp .formContact{
+    display: flex;
+    justify-content: center;
+}
+fieldset{
+    border: 4px solid rgb(8, 196, 234);
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%;
+}
+legend{
+    font-size: 20px;
+}
+input{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(8, 196, 234);
+    padding: 10px;
+}
+textarea{
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    border: 2px solid rgb(8, 196, 234);
+    padding: 10px;
+}
+label{
+    margin-bottom: 5px;
+}
+::placeholder{
+    color: #555558;
+    font-style: italic;
+    opacity:0.5;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(8, 196, 234);
+    color: #555558;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Amaranth', sans-serif;
+    width: 40%;
+    align-self: center;
+}
+button:hover{
+    background-color:rgb(168, 222, 233);
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+/* ----- fin page formContact----- */
+
+/* -----fin corp----- */
+
+
+/* ----- Footer----- */
+.footer {
+    background-color: rgb(8, 196, 234);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer p {
+    text-align: center;
+    color: #555558;
+}
+
+/* ----- fin Footer----- */
