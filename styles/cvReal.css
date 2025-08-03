@@ -59,13 +59,14 @@ p, li {
 
 .header .photoPerso,
 .header .infoPerso {
-    width: 33.3%;
+    width: 30%;
 }
 
 .header .photoPerso img {
     height: 200px;
     border-radius: 50%;
     margin-top:20px;
+   
 }
 
 .header .postSearch {
@@ -241,3 +242,43 @@ button:hover{
 }
 
 /* ----- fin Footer----- */
+
+/* ----- media screen page cvReal----- */
+@media screen and (max-width: 900px) {
+    .header .photoPerso,
+    .header .infoPerso,
+    .header .postSearch
+    {
+        font-size: 13px;
+    }
+    .header .infoPerso {
+        margin-right: 5%;
+    }
+    .header .photoPerso img {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        width: 100%;
+    }
+    .header .photoPerso,
+    .header .infoPerso,
+    .header .postSearch
+    {
+        font-size: 20px;
+        width: 100%;
+        
+        
+    }
+    .header .photoPerso img {
+        height: auto;
+        border-radius: 0;
+        width: 100%;
+        margin-top: 0;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+}
