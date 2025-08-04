@@ -244,6 +244,7 @@ button:hover{
 /* ----- fin Footer----- */
 
 /* ----- media screen page cvReal----- */
+/* HEADER */
 @media screen and (max-width: 900px) {
     .header .photoPerso,
     .header .infoPerso,
@@ -270,8 +271,6 @@ button:hover{
     {
         font-size: 20px;
         width: 100%;
-        
-        
     }
     .header .photoPerso img {
         height: auto;
@@ -282,3 +281,86 @@ button:hover{
         object-fit: cover;
     }
 }
+
+@media screen and (max-width: 460px) {
+    .header .infoPerso,
+    .header .postSearch
+    {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+/* NAV */
+@media screen and (max-width: 900px) {
+    .nav li a{
+        font-size: 13px;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .nav li {
+       width: 100%;
+    }
+    
+    .nav li a {
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .nav li:hover{
+        background-color: rgb(168, 222, 233);
+        transition: all 0.3s ease-in-out;
+        border-radius: 5px;
+        width: 95%;
+        margin: 5px auto;
+    }
+}
+@media screen and (max-width: 460px) {
+    .nav {
+       margin-left: 30px;
+    }
+    .nav ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        
+    }
+    
+    .nav li {
+       width: 100%;
+    }
+    
+    .nav li a {
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .nav li:hover{
+        background-color: rgb(168, 222, 233);
+        transition: all 0.3s ease-in-out;
+        border-radius: 5px;
+        width: 95%;
+        margin: 5px auto;
+    }
+}
+
+/* TABLEAU */
